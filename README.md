@@ -3,6 +3,9 @@
 A standalone, zero-cloud Proof of Concept demonstrating the complete embedding pipeline
 proposed for **Joplin GSoC 2026 — Idea #4: Chat with your note collection using AI**.
 
+![Pipeline output — chunk embeddings](assets/screenshot-1.png)
+![Pipeline output — summary](assets/screenshot-2.png)
+
 ---
 
 ## Problem
