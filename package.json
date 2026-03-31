@@ -1,0 +1,25 @@
+{
+  "name": "joplin-local-rag-poc",
+  "version": "1.0.0",
+  "description": "Local-first RAG Proof of Concept for Joplin GSoC 2026 — Idea #4: Chat with your note collection using AI",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "test": "jest",
+    "build": "tsc"
+  },
+  "keywords": ["joplin", "rag", "local-llm", "transformers", "embeddings"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@xenova/transformers": "^2.17.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.14.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3"
+  }
+}
